@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(auk.jpg);
+    background-size: cover;
+   
+}
+.container{
+    text-align: center;
+    margin-top:200px;
+}
+.btn{
+   
+    width: 150px;
+    height: 40px;
+    border-radius: 75px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.view:hover{
+    opacity: 0.8;
+}
+
+.view{
+    width: 150px;
+    height: 40px;
+    border-radius: 75px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.show{
+    display: none;
+}
+#dropdown{
+    margin-top: 35px;
+
+}
+#dropdown a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 75px;
+
+}
+#dropdown a:hover{
+    opacity: 0.8;
+}
